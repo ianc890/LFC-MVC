@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="~/Images/Liverbird-icon.png"/>
+    <title>@ViewBag.Title - LFC</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background: #C31014;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--@Html.ActionLink("LFC", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })-->
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><img src="~/Images/Liverbird-icon.png" alt="LFC" title="LFC" height="30" width="30" style="margin-top: 10px;" /></li>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Players", "Index", "Player")</li>
+                    <li>@Html.ActionLink("Fixtures & Results", "Index", "Fixture")</li>
+                    <li>@Html.ActionLink("Managers", "Index", "Manager")</li>
+                    <li>@Html.ActionLink("Honours", "Index", "Honour")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content" style="background: #D3D3D3; border-radius: 5px;">
+        @RenderBody()
+        <hr style="border-color: #C31014;" />
+        <footer style="color: #C31014;">
+            <p>&copy; @DateTime.Now.Year - LFC</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

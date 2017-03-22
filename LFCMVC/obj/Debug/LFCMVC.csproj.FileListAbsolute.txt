@@ -1,0 +1,126 @@
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\LFCMVC.dll.config
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\LFCMVC.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\LFCMVC.pdb
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Antlr3.Runtime.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\EntityFramework.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\EntityFramework.SqlServer.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Google.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Newtonsoft.Json.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Owin.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.Helpers.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.Mvc.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.Optimization.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.Razor.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.WebPages.Deployment.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.WebPages.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.WebPages.Razor.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\WebGrease.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.Helpers.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.Mvc.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.Optimization.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.Razor.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.WebPages.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.WebPages.Deployment.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\System.Web.WebPages.Razor.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Antlr3.Runtime.pdb
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Newtonsoft.Json.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\EntityFramework.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\EntityFramework.SqlServer.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Google.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.csprojResolveAssemblyReference.cache
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.dll
+c:\users\ian c\documents\visual studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.pdb
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.InitialCreate.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.csproj.GenerateResource.Cache
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.ic.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.NewCreate.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.NewCreateTwo.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.MyNew.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.NewCr.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.AddAliasField.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.AddF.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.Add.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.MyAdd.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.AddLocation.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.NewMig.resources
+C:\Users\Ian C\Documents\Visual Studio 2013\Projects\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.NewCreate1.resources
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\LFCMVC.dll.config
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\LFCMVC.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\LFCMVC.pdb
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Antlr3.Runtime.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\EntityFramework.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Newtonsoft.Json.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Owin.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.Helpers.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.Mvc.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.Optimization.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.Razor.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.WebPages.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\WebGrease.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.Helpers.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.Mvc.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.Optimization.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.Razor.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.WebPages.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Antlr3.Runtime.pdb
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Newtonsoft.Json.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\EntityFramework.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\obj\Debug\LFCMVC.csprojResolveAssemblyReference.cache
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\obj\Debug\LFCMVC.dll
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\obj\Debug\LFCMVC.pdb
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\obj\Debug\LFCMVC.csproj.GenerateResource.Cache
+C:\Users\Ian C\Desktop\AIT Project\LFCMVC\LFCMVC\obj\Debug\LFCMVC.Migrations.mignew.resources

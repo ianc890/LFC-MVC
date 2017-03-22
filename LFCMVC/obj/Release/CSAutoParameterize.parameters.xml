@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-LFCMVC-20151106110228b.mdf;Initial Catalog=aspnet-LFCMVC-20151106110228b;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ian\ C\\Desktop\\AIT\ Project\\LFCMVC\\LFCMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="LFCContext-Web.config Connection String" description="LFCContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-LFCMVC-20151106110228.mdf;Initial Catalog=aspnet-LFCMVC-20151106110228;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ian\ C\\Desktop\\AIT\ Project\\LFCMVC\\LFCMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LFCContext']/@connectionString" />
+  </parameter>
+  <parameter name="LFCContext_DatabasePublish-Web.config Connection String" description="LFCContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="LFCContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ian\ C\\Desktop\\AIT\ Project\\LFCMVC\\LFCMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LFCContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

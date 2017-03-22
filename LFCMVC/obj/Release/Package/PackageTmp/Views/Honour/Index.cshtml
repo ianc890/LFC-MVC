@@ -1,0 +1,88 @@
+﻿@model IEnumerable<LFCMVC.Models.Honour>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h5 style="float: right; color: #C31014; margin-top: 20px;">Upload Trophy images here!<br />Then create or edit a Trophy</h5>
+
+<h2>Trophy Room</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@section scripts{
+
+    <script type="text/javascript">
+        //highlight table row on mouse hover using jQuery
+        $("tr").not(':first').hover(
+      function () {
+          $(this).css("background", "#C31014");
+      },
+      function () {
+          $(this).css("background", "");
+      }
+    );
+
+
+    </script>
+}
+
+@using (Html.BeginForm("FileUpload", "Honour", FormMethod.Post,
+                    new { enctype = "multipart/form-data" }))
+{
+    <div style="float: right;">
+
+        <input type="submit" value="Upload" class="submit" />
+    </div>
+    <div style="float: right;">
+        <input type="file" name="file" id="file" style="width: 100%;" />
+    </div>
+}
+
+
+<table class="table">
+    <tr>
+        <th></th>
+        <th>
+            @Html.DisplayNameFor(model => model.Award)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Season)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img alt="" src="~/Images/@Html.DisplayFor(modelItem => item.Image)" width="100" height="100">
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Award)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Season)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.HonourId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.HonourId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,120 @@
+﻿@model IEnumerable<LFCMVC.Models.Fixture>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Fixtures and Results</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+@section Scripts
+{
+    <link href="~/jquery-ui.css" rel="stylesheet" />
+
+    <script src="~/jquery-ui.js"></script>
+
+    <script type="text/javascript">
+
+
+        //autocomplete calling options from players table using jQuery
+        $(function () {
+            $("#SearchString").autocomplete({
+                source: '@Url.Action("AutocompleteSuggestions")',
+                minLength: 1,
+                select: function (event, ui) {
+                    if (ui.item) {
+                        $("#SearchString").val(ui.item.value);
+                        $("form").submit();
+                    }
+                }
+            });
+        });
+
+       
+
+
+
+        //highlight table row on mouse hover using jQuery
+        $("tr").not(':first').hover(
+      function () {
+          $(this).css("background", "#C31014");
+      },
+      function () {
+          $(this).css("background", "");
+      }
+    );
+
+
+    </script>
+}
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find by competition name: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Competition.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Stadium)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeTeam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HomeScore)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AwayScore)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AwayTeam)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Competition.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Stadium)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeTeam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HomeScore)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AwayScore)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AwayTeam)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.FixtureId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.FixtureId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.FixtureId })
+        </td>
+    </tr>
+}
+
+</table>

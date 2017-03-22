@@ -1,0 +1,183 @@
+﻿@model IEnumerable<LFCMVC.Models.Player>
+
+<style>
+    .divElement{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    z-index: 1;
+    box-shadow: 10px 10px 5px #888888;
+}
+</style>
+
+@section Scripts
+{
+    <link href="~/jquery-ui.css" rel="stylesheet" />
+
+    <script src="~/jquery-ui.js"></script>
+
+    <script type="text/javascript">
+
+    function fade() {
+        $("#resultsDiv").fadeOut();
+    }
+
+    function fadeIn() {
+        $("#resultsDiv").fadeIn();
+    }
+
+
+    //autocomplete calling options from players table using jQuery
+    $(function () {
+        $("#SearchString").autocomplete({
+            source: '@Url.Action("AutocompleteSuggestions")',
+            minLength: 1,
+            select: function (event, ui) {
+                if (ui.item) {
+                    $("#SearchString").val(ui.item.value);
+                    $("form").submit();
+                }
+            }
+        });
+    });
+
+        //player details ajax
+        function DoSearch() {
+            fadeIn();
+            $("#resultsDiv").html("<table align = 'center'><tr><th>Country</th><th>&nbsp;&nbsp;&nbsp;<b>Squad Number</b></th><input type='image' src= '../Images/close.png' alt='Close' title='Close' style = 'float: right; margin-top: 5px; margin-right: 5px;' width = '15' height = '15' onclick='fade();' /></table><br/>&nbsp;&nbsp;&nbsp;&nbsp;");
+            var namePart = { "namePart": $("#searchString").val() };
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "/LFCService.asmx/GetFixturesByPlayer",
+                data: JSON.stringify(namePart),
+                dataType: "json",
+                async: true,
+                success: function (result, textStatus) {
+                    if (textStatus == "success") {
+                        for (var i = 0; i < result.d.length; i++) {
+                            $("#resultsDiv").html($("#resultsDiv").html() + result.d[i] + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+                        }
+                        $("#resultsDiv").html($("#resultsDiv").html() + "<br/><br/><br/><br/>");
+                    }
+                },
+                error: function (result, status, error) {
+                    $("#resultsDiv").html("ERROR <br/>");
+                }
+
+            });
+        }
+
+
+
+    //highlight table row on mouse hover using jQuery
+    $("tr").not(':first').hover(
+  function () {
+      $(this).css("background", "#C31014");
+  },
+  function () {
+      $(this).css("background", "");
+  }
+);
+
+
+    </script>
+
+}
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h5 style="float: right; color: #C31014; margin-top: 20px;">Upload your favourite players image!<br/>Then create or edit a player</h5>
+<h2>Player</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div>
+    <input id="searchString" type="text" placeholder="Enter Last Name" />
+    <input type="submit" value="Info" alt="Info" title="Info" onclick="DoSearch();" />
+</div>
+<div id="resultsDiv" class="divElement" style= "background: white; width:220px; border-radius: 4px;">
+</div>
+
+
+
+    @using (Html.BeginForm("FileUpload", "Player", FormMethod.Post,
+                    new { enctype = "multipart/form-data" }))
+    {
+        <div style="float: right;">
+
+            <input type="submit" value="Upload" class="submit" />
+        </div>
+        <div style="float: right;">
+            <input type="file" name="file" id="file" style="width: 100%;" />
+        </div>
+    }
+
+    @using (Html.BeginForm())
+    {
+    <p>
+        <br/><br/>
+        Find by last name: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+    }
+
+        <table class="table">
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PlayerPosition.Position)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Team.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Age)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img id="imgT" alt="" src="~/Images/@Html.DisplayFor(modelItem => item.Image)" width="100" height="100">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlayerPosition.Position)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Team.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.PlayerId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.PlayerId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.PlayerId })
+            </td> 
+       </tr>
+    }
+
+</table>

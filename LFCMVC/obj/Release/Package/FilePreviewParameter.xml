@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="lfcfanzone" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Ian\ C\\Desktop\\AIT\ Project\\LFCMVC\\LFCMVC\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Ian\ C\\Desktop\\AIT\ Project\\LFCMVC\\LFCMVC\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:fiidz652ai.database.windows.net,1433;Initial Catalog=lfcDB;User Id=ianc@fiidz652ai;Password=LuisSuarez07" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ian\ C\\Desktop\\AIT\ Project\\LFCMVC\\LFCMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="LFCContext-Web.config Connection String" description="" value="Data Source=tcp:fiidz652ai.database.windows.net,1433;Initial Catalog=lfcDB;User Id=ianc@fiidz652ai;Password=LuisSuarez07" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ian\ C\\Desktop\\AIT\ Project\\LFCMVC\\LFCMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LFCContext']/@connectionString" />
+  </parameter>
+</parameters>
